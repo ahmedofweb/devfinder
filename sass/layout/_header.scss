@@ -1,0 +1,45 @@
+.header{
+    margin-bottom: 35px;
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 39px;
+    }
+    .light-dark{
+        display: flex;
+        & h4{
+            margin-right: 16px;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 19px;
+            letter-spacing: 2.5px;
+        }
+    }
+    .light-dark:hover{
+        opacity: .5;
+    }
+    .light-dark:active{
+        & h4{
+            color: #222;
+        }
+        .img-LD svg path {
+            fill: #222;
+        }
+    }
+    .hidden{
+        display: none;
+    }
+}
+
+.color-to-light{
+    color: #222731;
+}
+
+.color-to-dark{
+    color: #fff;
+}
