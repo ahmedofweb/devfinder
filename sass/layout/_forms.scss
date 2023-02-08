@@ -88,6 +88,7 @@
             width: 100%;
             max-width: 200px;
         }
+
         .icon{
             display: flex;
             margin-right: 12px;
@@ -103,10 +104,8 @@
             opacity: .8;
         }
         
+        
 
-    }
-    .link{
-        border-bottom: 1px solid inherit;
     }
     .link:hover{
         text-decoration: underline;

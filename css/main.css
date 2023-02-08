@@ -278,9 +278,6 @@ jcsb .profil .info-header a {
 .profil .footer .opacity {
   opacity: 0.8;
 }
-.profil .link {
-  border-bottom: 1px solid inherit;
-}
 .profil .link:hover {
   text-decoration: underline;
 }
