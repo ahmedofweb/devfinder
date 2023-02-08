@@ -11,7 +11,7 @@ const numbers = document.querySelectorAll(".numbers")
 const icon = document.querySelectorAll(".icon")
 const noResult = document.querySelector(".no-result")
 const btnSearch = document.querySelector(".btn-search")
-
+const twit = document.querySelector(".twit")
 
 
 light.forEach((e) => {
@@ -64,7 +64,9 @@ input.addEventListener("click", () => {
 
 links.forEach((link)=> {
     link.addEventListener("click", ()=> {
-        link.textContent = "Not aviable"
         link.style.opacity = ".5"
     })
+})
+twit.addEventListener("click", ()=> {
+    twit.textContent = "Not aviable"
 })
